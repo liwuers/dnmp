@@ -5,7 +5,9 @@ nohup.out
 docker-compose.yml
 docker-compose.yml.*
 www/*
-logs/*
+!www/index.php
+logs/nginx/*
+logs/php/*
 data/composer/*
 data/esdata/*
 data/mongo/*
