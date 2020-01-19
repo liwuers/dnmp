@@ -1,27 +1,22 @@
 # dnmp
-docker for mac, nginx1.15,mysql5.7,php7.2
-DNMP（Docker + Nginx + MySQL + PHP7/5 + Redis）是一款全功能的**LNMP一键安装程序**。
+docker for mac, nginx1.15,mysql5.7,php7.2,redis5.0.3
 
-> 使用前最好提前阅读一遍[目录](#目录)，以便快速上手，遇到问题也能及时排除。交流QQ群：**572041090**。
+- [原github](https://github.com/yeszao/dnmp);
 
 DNMP项目特点：
-1. `100%`开源
-2. `100%`遵循Docker标准
-3. 支持**多版本PHP**共存，可任意切换（PHP5.4、PHP5.6、PHP7.1、PHP7.2、PHP7.3)
-4. 支持绑定**任意多个域名**
-5. 支持**HTTPS和HTTP/2**
-6. **PHP源代码、MySQL数据、配置文件、日志文件**都可在Host中直接修改查看
-7. 内置**完整PHP扩展安装**命令
-8. 默认支持`pdo_mysql`、`mysqli`、`mbstring`、`gd`、`curl`、`opcache`等常用热门扩展，根据环境灵活配置
-9. 可一键选配常用服务：
-    - 多PHP版本：PHP5.4、PHP5.6、PHP7.1-7.3
-    - Web服务：Nginx、Openresty
-    - 数据库：MySQL5、MySQL8、Redis、memcached、MongoDB、ElasticSearch
+1. 支持**多版本PHP**共存，可任意切换（PHP5.4、PHP5.6、PHP7.1、PHP7.2、PHP7.3)
+2. **PHP源代码、MySQL数据、配置文件、日志文件**都可在Host中直接修改查看
+3. 内置**完整PHP扩展安装**命令
+4. 默认支持`pdo_mysql`、`mysqli`、`mbstring`、`gd`、`curl`、`opcache`等常用热门扩展，根据环境灵活配置
+5. 可一键选配常用服务：
+    - PHP版本：PHP7.2
+    - Web服务：Nginx
+    - 数据库：MySQL5、Redis
     - 消息队列：RabbitMQ
     - 辅助工具：Kibana、Logstash、phpMyAdmin、phpRedisAdmin、AdminMongo
-10. 实际项目中应用，确保`100%`可用
-11. 所有镜像源于[Docker官方仓库](https://hub.docker.com)，安全可靠
-11. 一次配置，**Windows、Linux、MacOs**皆可用
+6. 实际项目中应用，确保`100%`可用
+7. 所有镜像源于[Docker官方仓库](https://hub.docker.com)，安全可靠
+8. 一次配置，**Windows、Linux、MacOs**皆可用
 
 # 目录
 - [1.目录结构](#1目录结构)
